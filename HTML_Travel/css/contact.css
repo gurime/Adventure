@@ -1,0 +1,74 @@
+main{
+    background: linear-gradient(0deg,rgb(0 0 0 / 45%), rgb(0 0 0 / 41%)), url(../img/oc-contact.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.events-tagline{
+    color: #ffffff;
+    height: 350px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+
+}
+
+form{
+    display:grid;
+    width: 40%;
+    margin: auto;
+    padding:2px}
+    
+    form input{
+    height:46px;
+    font-size: 15px;
+    outline: none;
+    background: transparent;
+    border: none;
+    color: #fff;
+    margin-bottom:24px}
+
+    form input:hover{
+        border-bottom: solid 1px #ffffff;
+    }
+
+
+    form label{
+    color:#ffffff;
+    line-height:40px}
+    
+    p a{
+    color:#fff;
+    text-decoration:none}
+    
+    .contact-btn{
+    border-width:0;
+    background:linear-gradient(90deg,#66278a 0,#9910d9 100%);
+    width:211px;
+    height:64px;
+    text-align:center;
+    font-size:24px;
+    outline:0;
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 3px;
+    transition: 0.5s;
+    cursor:pointer;
+    margin:3rem auto}
+    
+  .contact-btn:hover{
+      opacity: 0.5;
+  }
+
+  @media(max-width:500px){
+
+
+    form{
+        width: 95%;
+    }
+
+    .events-tagline{
+        text-align: center !important;
+    }
+
+   
+}
